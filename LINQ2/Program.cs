@@ -19,7 +19,7 @@ namespace LINQ2
             // Query #5.
             IEnumerable<int> concatenationQuery = numbers1.Concat(numbers2);
 
-            // Executte the query.
+            // Execute the query.
             foreach (int i in concatenationQuery)
             {
                 Console.Write(i + " ");
